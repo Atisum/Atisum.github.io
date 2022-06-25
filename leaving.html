@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人简介</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="container">
+            <img src="image/header.png" alt="">
+        </div>
+    </header>
+    <!-- 留言板主内容 -->
+    <div class="leaving-main">
+        <!-- 整体居中 -->
+        <div class="container">
+            <div class="list1">
+                <!-- 主内容左边 -->
+                <div class="left">
+                    <ul>
+                        <li>
+                            <a href="index.html">个人简历</a>
+                        </li>
+                        <li>
+                            <a href="school.html">我的学校</a>
+                        </li>
+                        <li>
+                            <a href="hobby.html">兴趣爱好</a>
+                        </li>
+                        <li>
+                            <a href="leaving.html">留言板</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 主内容右边 -->
+                <div class="right">
+                    <h1>与我联系</h1>
+                    <form style="font-size: 18px;">
+                        <div class="form-group">
+                            姓&nbsp;&nbsp;&nbsp;&nbsp;名：<input type="text" class="form-control" id="input1" placeholder="您的姓名">
+                        </div>
+                        <br>
+                        <div class=" form-group ">
+                            手机号：<input type="text " class="form-control " id="input2 " placeholder="您的联系方式">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            性&nbsp;&nbsp;&nbsp;别：
+                            <label>
+                                <input type="radio" checked name="s">男
+                            </label>
+                            <label>
+                                <input type="radio" name="s">女
+                            </label>
+                        </div>
+                        <br>
+                        <div>
+                            爱&nbsp;&nbsp;&nbsp;&nbsp;好：<input type="checkbox" name="favoer" /> 音乐
+                            <input type="checkbox" name="favoer" /> 动漫
+                            <input type="checkbox" name="favoer" /> 游戏
+                            <input type="checkbox" name="favoer" />运动
+                        </div>
+                        <br> 留&nbsp;&nbsp;&nbsp;&nbsp;言：
+                        <textarea name="" id="" cols="50" rows="15" placeholder="如果您有什么意见或问题可以告诉我！"></textarea>
+                        <br>
+                        <br>
+                        <button type="button " class="btn btn-primary " onclick="test() ">确认提交</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- 页脚 -->
+        <footer>
+            <div class="container">
+                <p>版权所属：闫思宇个人网页</p>
+            </div>
+        </footer>
+</body>
+
+</html>
