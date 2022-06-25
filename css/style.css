@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* a标签去下划线 */
+
+a {
+    text-decoration: none;
+}
+
+
+/* li标签去点 */
+
+li {
+    list-style: none;
+}
+
+
+/* 设置主题宽 */
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.main,
+.leaving-main,
+.hobby-main,
+.school-main {
+    margin-top: 20px;
+}
+
+.main .list {
+    display: flex;
+}
+
+
+/* 个人简历样式开始 */
+
+header img {
+    width: 100%;
+}
+
+.main .left {
+    flex: 1;
+    background-color: aqua;
+}
+
+.main .right {
+    flex: 9;
+    display: flex;
+}
+
+.main .left li {
+    padding: 50px 10px;
+}
+
+.main .left li a {
+    text-align: center;
+    display: block;
+    color: #000;
+}
+
+.main .right .about-me {
+    flex: 4;
+    margin-left: 10px;
+}
+
+.main .right .about-me .me {
+    padding-bottom: 30px;
+}
+
+.main .right .about-me p {
+    padding-bottom: 10px;
+}
+
+.main .right .about-me img {
+    width: 180px;
+    height: 240px;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.main .right .about-me .brief p {
+    padding-bottom: 30px;
+}
+
+.main .right .about-me .brief strong {
+    color: #82a9c8;
+}
+
+.main .right .plan {
+    flex: 6;
+    margin-left: 30px;
+}
+
+.main .right .plan img {
+    width: 100%;
+    height: 860px;
+}
+
+.main .right h3 {
+    padding: 10px;
+    background-color: #53a4b9;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.main .right .list {
+    display: flex;
+}
+
+.main .right .list p {
+    width: 100%;
+}
+
+
+/* 个人简历结束 */
+
+
+/* 另外三个共同样式 */
+
+.school-main .list1,
+.hobby-main .list1,
+.leaving-main .list1 {
+    display: flex;
+}
+
+.school-main .list1 .left,
+.hobby-main .list1 .left,
+.leaving-main .list1 .left {
+    flex: 1;
+    background-color: aqua;
+}
+
+.school-main .left li,
+.hobby-main .left li,
+.leaving-main .left li {
+    padding: 50px 10px;
+}
+
+.school-main .left li a,
+.hobby-main .left li a,
+.leaving-main .left li a {
+    text-align: center;
+    display: block;
+    color: #000;
+}
+
+.school-main .list1 .right {
+    flex: 9;
+    display: flex;
+}
+
+.hobby-main .list1 .right {
+    flex: 9;
+    /* flex布局的父级 */
+    display: flex;
+    /*这个是直接换行的意思*/
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.leaving-main .list1 .right {
+    /* flex 的子级 */
+    flex: 9;
+    padding: 20px;
+    position: relative;
+    left: 20px;
+}
+
+.leaving-main .list1 .right h1 {
+    padding-bottom: 10px;
+}
+
+.leaving-main .list1 .right input {
+    padding: 5px;
+    /* width: 300px; */
+}
+
+.leaving-main .list1 .right button {
+    padding: 10px 20px;
+    background-color: #53a4b9;
+    border: 1px solid #53a4b9;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 160px;
+}
+
+.leaving-main .list1 .right textarea {
+    padding: 10px;
+}
+
+.school-main .list1 .right .list {
+    flex: 1;
+    padding: 20px;
+}
+
+.school-main .list1 .right .list p {
+    height: 114px;
+}
+
+.school-main .list1 .right .list img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.hobby-main .list1 .right .list .img {
+    display: flex;
+    margin: -10px;
+}
+
+.hobby-main .list1 .right .list .img img {
+    flex: 33.333333%;
+    width: 20%;
+    height: 250px;
+    padding: 10px;
+}
+
+.hobby-main .list1 .right .list h2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.label {
+    width: 25px;
+}
+
+footer {
+    background-color: #53a4b9;
+}
+
+footer p {
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+}
